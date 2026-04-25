@@ -746,7 +746,7 @@ useEffect(() => {
                     </div>
                   ))
                 ) : (
-                  <p>No shops found</p>
+                  <p>No shops found!</p>
                 )}
               </div>
             </div>
