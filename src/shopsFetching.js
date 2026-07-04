@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import { supabase } from "./supabase-client.js"; // ✅ importing your existing client
 
 // Add your Google Places API key here or through an environment variable
-const GOOGLE_API_KEY = "AIzaSyB3_-UqDrCY9ZAW78uzvG33SirHeYfTET0";
+const GOOGLE_API_KEY = "VITE_GOOGLE_API_KEY";
 
 // Mapping your main categories to relevant Google search keywords
 const CATEGORY_KEYWORDS = {
